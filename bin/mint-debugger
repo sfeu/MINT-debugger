@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+# $LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'rubygems'
+require 'MINT-core'
+require 'MINT-debugger/debugger2'
+
+include MINT
+
+# Wx::App is the container class for any wxruby app. To start an
+# application, either define a subclass of Wx::App, create an instance,
+# and call its main_loop method, OR, simply call the Wx::App.run class
+# method, as shown here.
+Wx::App.run do
+  self.app_name = 'MINT Debugger'
+
+  frame = MinimalFrame.new("MINT Debugger")
+  frame.show
+end

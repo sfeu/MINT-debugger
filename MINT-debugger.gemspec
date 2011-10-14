@@ -6,12 +6,12 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Sebastian Feuerstack}]
-  s.date = %q{2011-08-08}
+  s.date = %q{2011-08-16}
   s.description = %q{}
   s.email = [%q{Sebastian@Feuerstack.org}]
   s.executables = [%q{mint-debugger}]
-  s.extra_rdoc_files = [%q{History.txt}, %q{Manifest.txt}, %q{README.txt}]
-  s.files = [%q{.autotest}, %q{History.txt}, %q{Manifest.txt}, %q{README.txt}, %q{Rakefile}, %q{bin/mint-debugger}, %q{lib/MINT-debugger/MINT-debugger.rb}, %q{lib/MINT-debugger/debugger2.rb}, %q{.gemtest}]
+  s.extra_rdoc_files = [%q{History.txt}, %q{Manifest.txt}, %q{README.txt}, %q{lib/MINT-debugger/licence-code.txt}]
+  s.files = [%q{History.txt}, %q{MINT-debugger.gemspec}, %q{Manifest.txt}, %q{README.txt}, %q{Rakefile}, %q{lib/MINT-debugger/licence-code.txt}, %q{bin/mint-debugger}, %q{lib/MINT-debugger/MINT-Logo-short-bg.png}, %q{lib/MINT-debugger/debugger2.rb}, %q{lib/MINT-debugger.rb}]
   s.rdoc_options = [%q{--main}, %q{README.rdoc}]
   s.require_paths = [%q{lib}]
   s.rubyforge_project = %q{MINT-debugger}

@@ -1,0 +1,77 @@
+GIT
+  remote: ssh://git@multi-access.de/MINT-core.git
+  revision: f838ac5c55194f94bda0982cc55d7045b34e2735
+  branch: head_movements
+  specs:
+    MINT-core (0.0.1)
+      MINT-statemachine (~> 1.2.2)
+      cassowary (~> 1.0.0)
+      dm-rinda-adapter (~> 0.1.0)
+
+GIT
+  remote: ssh://git@multi-access.de/dm-rinda-adapter.git
+  revision: c0802f71b0a8226be4f5cef19bc85ad91921d9a0
+  branch: master
+  specs:
+    dm-rinda-adapter (0.1.0)
+      dm-core (~> 0.10.2)
+
+GIT
+  remote: ssh://git@multi-access.de/scxml.git
+  revision: d4277d2cbb603971ccb18e4ee0b84cb59c43c3f2
+  branch: jessica
+  specs:
+    MINT-scxml (1.0.0)
+      MINT-statemachine (~> 1.2.2)
+
+GIT
+  remote: ssh://git@multi-access.de/statemachine.git
+  revision: 17ddd123dfb9c3fed6de17546ae5a39291e5fdde
+  branch: jessica
+  specs:
+    MINT-statemachine (1.2.2)
+
+GEM
+  remote: http://rubygems.org/
+  remote: http://gems.rubyforge.org/
+  remote: http://gems.github.com/
+  specs:
+    addressable (2.2.6)
+    bcrypt-ruby (2.1.4)
+    cassowary (1.0.0)
+    dm-core (0.10.2)
+      addressable (~> 2.1)
+      extlib (~> 0.9.14)
+    dm-types (0.10.2)
+      bcrypt-ruby (~> 2.1.2)
+      dm-core (~> 0.10.2)
+      fastercsv (~> 1.5.0)
+      json_pure (~> 1.2.0)
+      stringex (~> 1.1.0)
+      uuidtools (~> 2.1.1)
+    eventmachine (0.12.10)
+    extlib (0.9.15)
+    fastercsv (1.5.4)
+    json_pure (1.2.4)
+    rake (0.9.2)
+    rmagick (2.13.1)
+    rspec (1.3.1)
+    stringex (1.1.0)
+    uuidtools (2.1.2)
+    wxruby (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  MINT-core!
+  MINT-scxml!
+  MINT-statemachine!
+  dm-core (= 0.10.2)
+  dm-rinda-adapter!
+  dm-types (= 0.10.2)
+  eventmachine (= 0.12.10)
+  rake (= 0.9.2)
+  rmagick (= 2.13.1)
+  rspec (= 1.3.1)
+  wxruby (= 2.0.0)

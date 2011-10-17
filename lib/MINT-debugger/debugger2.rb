@@ -1,11 +1,4 @@
-begin
-  require 'rubygems' 
-rescue LoadError
-end
-require 'wx'
-require 'time'
-require 'dm-core'
-require "MINT-core"
+
 
 DataMapper.setup(:default, { :adapter => "rinda", :host =>"localhost",:port=>4000})
                        

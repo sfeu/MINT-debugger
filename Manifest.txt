@@ -3,8 +3,8 @@ MINT-debugger.gemspec
 Manifest.txt
 README.txt
 Rakefile
-lib/MINT-debugger/licence-code.txt
 bin/mint-debugger
+lib/MINT-debugger.rb
 lib/MINT-debugger/MINT-Logo-short-bg.png
 lib/MINT-debugger/debugger2.rb
-lib/MINT-debugger.rb
+lib/MINT-debugger/licence-code.txt

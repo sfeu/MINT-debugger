@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 
-# $LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'MINT-debugger'
+
 require 'rubygems'
+require 'bundler/setup'
 require 'MINT-core'
-require 'MINT-debugger/debugger2'
 
 include MINT
 

@@ -10,4 +10,4 @@ gem "dm-types","0.10.2"
 gem "wxruby","2.0.0"
 gem "rmagick","2.13.1"
 gem "eventmachine", "0.12.10"
-
+gem "hoe", "2.9.6"

@@ -16,7 +16,7 @@ require 'hoe'
 Hoe.spec 'MINT-debugger' do
     self.developer 'Sebastian Feuerstack', 'Sebastian@Feuerstack.org'
   self.rubyforge_name       = self.name # TODO this is default value
-  self.extra_deps         = [['MINT-core','~> 0.0.1'],
+  self.extra_deps         = [['MINT-core','~> 1.0.0'],
                              ['wxruby',"~>2.0.0"]]
 end
 

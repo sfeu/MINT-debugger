@@ -1,26 +1,32 @@
 = MINT-debugger
 
-* FIX (url)
+* http://www.multi-access.de
 
 == DESCRIPTION:
 
-FIX (describe your package)
+The Multimodal Interaction Framwork debugger enables model inspection at system runtime.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Still alpha - it just runs on my machine ;-)
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+Just run the debugger. Needs a tuplespace to connect to.
+
+ mint-debugger 
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Requires libsdl and libmagick.
+
+For a easy installation just install teh following packages on your ubuntu 10.04 LTS machine:
+ 
+ sudo apt-get install build-essential libsdl-dev libsdl-mixer1.2-dev libmagickcore-dev libmagickwand-dev libwxbase2.8-0 libwxgtk2.8-0
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install MINT-debugger
 
 == DEVELOPERS:
 
@@ -35,7 +41,7 @@ and generate the RDoc.
 
 (The MIT License)
 
-Copyright (c) 2011 FIX
+Copyright (c) 2011 Sebastian Feuerstack
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

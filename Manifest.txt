@@ -1,7 +1,9 @@
+Gemfile
+Gemfile.lock
 History.txt
 MINT-debugger.gemspec
 Manifest.txt
-README.txt
+README.rdoc
 Rakefile
 bin/mint-debugger
 lib/MINT-debugger.rb
